@@ -13,7 +13,19 @@
 		8D0BDB032C57D5E7007DDDF2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BDB022C57D5E7007DDDF2 /* Base */; };
 		8D0BDB052C57D5E8007DDDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BDB042C57D5E8007DDDF2 /* Assets.xcassets */; };
 		8D0BDB082C57D5E8007DDDF2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D0BDB072C57D5E8007DDDF2 /* Base */; };
+		8D0BDB162C57D643007DDDF2 /* TallrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BDB152C57D643007DDDF2 /* TallrUITests.swift */; };
+		8D0BDB182C57D643007DDDF2 /* TallrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0BDB172C57D643007DDDF2 /* TallrUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D0BDB192C57D643007DDDF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0BDAF02C57D5E7007DDDF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0BDAF72C57D5E7007DDDF2;
+			remoteInfo = Tallr;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8D0BDAF82C57D5E7007DDDF2 /* Tallr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tallr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +36,20 @@
 		8D0BDB042C57D5E8007DDDF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0BDB072C57D5E8007DDDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D0BDB092C57D5E8007DDDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0BDB132C57D643007DDDF2 /* TallrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0BDB152C57D643007DDDF2 /* TallrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallrUITests.swift; sourceTree = "<group>"; };
+		8D0BDB172C57D643007DDDF2 /* TallrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallrUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8D0BDAF52C57D5E7007DDDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0BDB102C57D643007DDDF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				8D0BDAFA2C57D5E7007DDDF2 /* Tallr */,
+				8D0BDB142C57D643007DDDF2 /* TallrUITests */,
 				8D0BDAF92C57D5E7007DDDF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				8D0BDAF82C57D5E7007DDDF2 /* Tallr.app */,
+				8D0BDB132C57D643007DDDF2 /* TallrUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +89,15 @@
 				8D0BDB092C57D5E8007DDDF2 /* Info.plist */,
 			);
 			path = Tallr;
+			sourceTree = "<group>";
+		};
+		8D0BDB142C57D643007DDDF2 /* TallrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0BDB152C57D643007DDDF2 /* TallrUITests.swift */,
+				8D0BDB172C57D643007DDDF2 /* TallrUITestsLaunchTests.swift */,
+			);
+			path = TallrUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +120,24 @@
 			productReference = 8D0BDAF82C57D5E7007DDDF2 /* Tallr.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8D0BDB122C57D643007DDDF2 /* TallrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0BDB1B2C57D643007DDDF2 /* Build configuration list for PBXNativeTarget "TallrUITests" */;
+			buildPhases = (
+				8D0BDB0F2C57D643007DDDF2 /* Sources */,
+				8D0BDB102C57D643007DDDF2 /* Frameworks */,
+				8D0BDB112C57D643007DDDF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D0BDB1A2C57D643007DDDF2 /* PBXTargetDependency */,
+			);
+			name = TallrUITests;
+			productName = TallrUITests;
+			productReference = 8D0BDB132C57D643007DDDF2 /* TallrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +150,10 @@
 				TargetAttributes = {
 					8D0BDAF72C57D5E7007DDDF2 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					8D0BDB122C57D643007DDDF2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8D0BDAF72C57D5E7007DDDF2;
 					};
 				};
 			};
@@ -116,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				8D0BDAF72C57D5E7007DDDF2 /* Tallr */,
+				8D0BDB122C57D643007DDDF2 /* TallrUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +184,13 @@
 				8D0BDB052C57D5E8007DDDF2 /* Assets.xcassets in Resources */,
 				8D0BDB082C57D5E8007DDDF2 /* Base in Resources */,
 				8D0BDB032C57D5E7007DDDF2 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0BDB112C57D643007DDDF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +207,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D0BDB0F2C57D643007DDDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0BDB182C57D643007DDDF2 /* TallrUITestsLaunchTests.swift in Sources */,
+				8D0BDB162C57D643007DDDF2 /* TallrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D0BDB1A2C57D643007DDDF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D0BDAF72C57D5E7007DDDF2 /* Tallr */;
+			targetProxy = 8D0BDB192C57D643007DDDF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8D0BDB012C57D5E7007DDDF2 /* Main.storyboard */ = {
@@ -341,6 +421,48 @@
 			};
 			name = Release;
 		};
+		8D0BDB1C2C57D643007DDDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBXG43H87V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fborges.TallrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tallr;
+			};
+			name = Debug;
+		};
+		8D0BDB1D2C57D643007DDDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBXG43H87V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fborges.TallrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tallr;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -358,6 +480,15 @@
 			buildConfigurations = (
 				8D0BDB0D2C57D5E8007DDDF2 /* Debug */,
 				8D0BDB0E2C57D5E8007DDDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0BDB1B2C57D643007DDDF2 /* Build configuration list for PBXNativeTarget "TallrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0BDB1C2C57D643007DDDF2 /* Debug */,
+				8D0BDB1D2C57D643007DDDF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
